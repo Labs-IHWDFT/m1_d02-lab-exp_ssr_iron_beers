@@ -6,6 +6,7 @@ const path = require('path');
 const PunkAPIWrapper = require('punkapi-javascript-wrapper');
 const punkAPI = new PunkAPIWrapper();
 
+const PORT = process.env.PORT || 3000
 // To use partials, we have to register them
 hbs.registerPartials(path.join(__dirname + '/views/partials'));
 
@@ -92,4 +93,4 @@ app.all('/:id', (req, res) => {
 		.catch((err) => console.log(err));
 });
 
-app.listen(3000, () => console.log('App is running on port 3000 🎯'));
+app.listen(PORT, () => console.log('App is running on port 3000 🎯'));
