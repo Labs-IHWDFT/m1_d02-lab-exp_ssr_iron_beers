@@ -2,6 +2,8 @@
 
 # LAB | Express IronBeers
 
+[![Automated Testing](https://github.com/Labs-IHWDFT/m1_d02-lab-exp_ssr_iron_beers/actions/workflows/test.yml/badge.svg?branch=solution)](https://github.com/Labs-IHWDFT/m1_d02-lab-exp_ssr_iron_beers/actions/workflows/test.yml)
+
 ## Introduction
 
 Sometimes you would just like to have a very descriptive list of all beers so you could see their type, color, each beer's percentage of alcohol, or which beer is well pared with some food. In this lab, you will create a web app where the user will be able to see a list of beers, get random suggestions, and read a very descriptive explanation of each beer.
